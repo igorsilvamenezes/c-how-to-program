@@ -15,6 +15,12 @@ int main( void )
 	printf( "operador de deslocamento a esquerda << eh\n" );
 	displayBits( number1 << 8 );
 	
+	/* demostra deslocamento a direita sobre bits */
+	printf( "\nO resultado do deslocamento a direita de\n" );
+	displayBits( number1 );
+	printf( "por 8 posicoes de bits usando o " );
+	printf( "operador de deslocamento a direita >> eh\n" );
+	displayBits( number1 >> 8 );	
 	return 0; /* indica conclusão bem-sucedida */
 } /* fim do main */
 
